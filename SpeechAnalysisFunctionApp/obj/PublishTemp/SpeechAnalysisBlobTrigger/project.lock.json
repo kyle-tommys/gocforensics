@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.ProjectOxford.SpeechRecognition-x86/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/SpeechClient.dll": {}
+        },
+        "runtime": {
+          "lib/SpeechClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.ProjectOxford.SpeechRecognition-x86/1.0.0.1": {
+      "sha512": "XZYFm7cd1ppL0UQzO8g19gIQSZLT+qaw0R3Q8UjHbIKFCbTumiIdwExrqdbhL+ip7y27keKTib7pcBO6cpjpyg==",
+      "type": "package",
+      "path": "microsoft.projectoxford.speechrecognition-x86/1.0.0.1",
+      "files": [
+        "DoNugetPack.cmd",
+        "Microsoft.ProjectOxford.SpeechRecognition-x86.1.0.0.1.nupkg.sha512",
+        "Microsoft.ProjectOxford.SpeechRecognition-x86.nuspec",
+        "lib/SpeechClient.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.ProjectOxford.SpeechRecognition-x86 >= 1.0.0.1"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "C:\\Users\\benho\\.nuget\\packages": {}
+  }
+}

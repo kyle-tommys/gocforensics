@@ -29,6 +29,7 @@ module.exports = function (context, myQueueItem) {
 
                 context.log('OCR', body);
                 context.bindings.outputDocument.ocr = body;
+                context.bindings.outputDocument.action = context.bindings.inputDocument.action + ", ocr";
                 context.log('Written to DocumentDB', context.bindings.outputDocument);
                 context.done();
             }

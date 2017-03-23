@@ -1,0 +1,9 @@
+﻿{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Microsoft.ProjectOxford.SpeechRecognition-x86": "1.0.0.1"
+      }
+    }
+  }
+}

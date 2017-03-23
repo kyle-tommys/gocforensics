@@ -1,0 +1,21 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "speechtextbloburls",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "type": "documentDB",
+      "name": "textDocument",
+      "databaseName": "ImageAnalysisDatabase",
+      "collectionName": "ImageAnalysisCollection",
+      "connection": "DocumentDBConnection",
+      "createIfNotExists": true,
+      "direction": "out"
+    }
+  ]
+}

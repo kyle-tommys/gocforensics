@@ -34,6 +34,7 @@ module.exports = function (context, myQueueItem, outputDocument, myOutQueueItem)
                 context.bindings.outputDocument.id = documentId;
                 context.bindings.outputDocument.imageUrl = myQueueItem;
                 context.bindings.outputDocument.fileType = "image";
+                context.bindings.outputDocument.action = "imageanalysis";
                 context.log('Written to DocumentDB', context.bindings.outputDocument);
                 context.bindings.myOutQueueItem = documentId;
                 context.log('OutputQueue', documentId);
