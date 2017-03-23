@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "ImageAnalysisFunctionApp", "ImageAnalysisFunctionApp\ImageAnalysisFunctionApp.funproj", "{1DCBBBD9-EAB1-495C-90D7-25C590433B5B}"
+EndProject
+Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "SpeechAnalysisFunctionApp", "SpeechAnalysisFunctionApp\SpeechAnalysisFunctionApp.funproj", "{12A149BA-F20D-435A-AEF6-82B225E9B631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DCBBBD9-EAB1-495C-90D7-25C590433B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCBBBD9-EAB1-495C-90D7-25C590433B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCBBBD9-EAB1-495C-90D7-25C590433B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCBBBD9-EAB1-495C-90D7-25C590433B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A149BA-F20D-435A-AEF6-82B225E9B631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A149BA-F20D-435A-AEF6-82B225E9B631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A149BA-F20D-435A-AEF6-82B225E9B631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A149BA-F20D-435A-AEF6-82B225E9B631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
